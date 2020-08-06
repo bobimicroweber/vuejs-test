@@ -1,7 +1,12 @@
 <template>
 
   <div>
-    <b-btn variant="success"><b-icon-chat></b-icon-chat> Hello, {{name}} </b-btn>
+
+    <br />
+    <b-btn variant="success" v-b-tooltip.hover title="Tooltip directive content"><b-icon-chat></b-icon-chat> Hello, {{name}} </b-btn>
+    <br />
+    <br />
+    <b-input v-model="name"></b-input>
   </div>
 
 </template>
