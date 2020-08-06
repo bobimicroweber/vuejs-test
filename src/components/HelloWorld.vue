@@ -7,12 +7,12 @@
 </template>
 
 <script>
-  export default {
-      name: 'HelloWorld',
-      data () {
-          return {
-              name: 'Bozhidar'
-          }
-      }
+export default {
+  name: 'HelloWorld',
+  data () {
+    return {
+      name: 'Bozhidar'
+    }
   }
+}
 </script>
