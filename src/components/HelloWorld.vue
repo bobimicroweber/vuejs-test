@@ -1,25 +1,18 @@
 <template>
 
   <div>
-    <b-button>Button</b-button>
-    <b-button variant="danger">Button</b-button>
-    <b-button variant="success">Button</b-button>
-    <b-button variant="outline-primary">Button</b-button>
-
-    <b-list-group>
-      <b-list-group-item>wawww</b-list-group-item>
-    </b-list-group>
+    <b-btn variant="success"><b-icon-chat></b-icon-chat> Hello, {{name}} </b-btn>
   </div>
 
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      name: 'Bozhidar'
-    }
+  export default {
+      name: 'HelloWorld',
+      data () {
+          return {
+              name: 'Bozhidar'
+          }
+      }
   }
-}
 </script>
